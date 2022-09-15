@@ -3,7 +3,8 @@ Supplementary code for "Just Round: Quantized Observation Spaces Enable Memory E
 
 ## Installation
 1. Install `stable_baselines3` from https://github.com/DLR-RM/stable-baselines3
-2. Run `python3 setup.py install` or `python3 setup.py develop`
+2. Install `mujoco-py` from https://github.com/openai/mujoco-py
+3. Run `python3 setup.py install` or `python3 setup.py develop`
 
 ## Example
 
