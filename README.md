@@ -45,3 +45,15 @@ env = gym.make("Walker2d-v3")
 model = SAC("MlpPolicy", env, verbose=1, replay_buffer_class=QuantizedReplayBuffer)
 model.learn(total_timesteps=10000)
 ```
+### Citing
+To cite this work in your research, please use the following bibtex:
+```
+@inproceedings{grossman23JustRound,
+  author = {Grossman, Lev and Plancher, Brian},
+  title = {Just Round: Quantized Observation Spaces Enable Memory Efficient Learning of Dynamic Locomotion},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  address = {London, UK},
+  month={May.},
+  year = {2023}
+}
+```
